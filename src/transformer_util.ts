@@ -14,9 +14,6 @@ import * as tsickle from './tsickle';
  * to fix bugs in TypeScript.
  */
 export function createCustomTransformers(given: ts.CustomTransformers): ts.CustomTransformers {
-  if (!given.after && !given.before) {
-    return given;
-  }
   const before = given.before || [];
   before.unshift(addFileContexts);
   before.push(prepareNodesBeforeTypeScriptTransform);

@@ -1,8 +1,8 @@
-goog.module('test_files.decorator.decorator');var module = module || {id: 'test_files/decorator/decorator.js'};/**
+goog.module('test_files.decorator.decorator');var module = module || {id: 'test_files/decorator/decorator.js'};
+/**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-
 // OtherClass is reachable via the imports for './external' and './external2'.
 // Test that were using it from the right import, and not just the first
 // that allows access to the value. That is important when imports are elided.
@@ -85,7 +85,7 @@ __decorate([
 ], DecoratorTest.prototype, "x", void 0);
 __decorate([
     decorator,
-    __metadata("design:type", external_1.AClass)
+    __metadata("design:type", Object)
 ], DecoratorTest.prototype, "z", void 0);
 function DecoratorTest_tsickle_Closure_declarations() {
     /** @type {!Array<{type: !Function, args: (undefined|!Array<?>)}>} */

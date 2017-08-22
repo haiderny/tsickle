@@ -1,8 +1,8 @@
-goog.module('test_files.decorator_nested_scope.decorator_nested_scope');var module = module || {id: 'test_files/decorator_nested_scope/decorator_nested_scope.js'};/**
+goog.module('test_files.decorator_nested_scope.decorator_nested_scope');var module = module || {id: 'test_files/decorator_nested_scope/decorator_nested_scope.js'};
+/**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-
 class SomeService {
 }
 /**
